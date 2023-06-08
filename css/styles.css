@@ -653,7 +653,7 @@ border-radius: 2px;
       border-radius: 4px;
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
       0px 2px 1px rgba(0, 0, 0, 0.2);
-
+      padding: 72px 24px 24px 24px; 
     }
       
     .backdrop.is-hidden .modal{
@@ -734,7 +734,11 @@ border-radius: 2px;
         background-color: transparent;
         padding-left: 38px; 
         transition: border-color var(--transition);
-  
+        outline: transparent;
+      }
+
+      .modal-input:focus {
+        color: var(--text-color);
       }
   
       .modal-icon {
@@ -743,4 +747,8 @@ border-radius: 2px;
         top: 50%;
         transform: translateY(-50%);
         transition: fill var(--transition)
+      }
+
+      .modal-icon:focus {
+        fill: var(--text-color);
       }
