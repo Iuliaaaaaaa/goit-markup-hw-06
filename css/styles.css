@@ -795,10 +795,11 @@ border-radius: 2px;
         cursor: pointer;
         transition: background-color var(--transition) ;
         margin: 24px auto;
+        letter-spacing: 0.04em;
        }
 
        .checkbox-label{
-        font-style: 12px;
+        font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em; 
         color: var(--link-color);
@@ -809,14 +810,14 @@ border-radius: 2px;
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4); 
         border-radius: 2px;
-        transition: background-color var(--transition);
+        transition: background-color var(--transition), border var(--transition), fill var(--transition);
         display: inline-flex;
         justify-content: center;
         align-items: center;
         fill: transparent;
        }
        
-       .checkbox-span:checked {
+       .checkbox-modal .checkbox-span:checked {
         background-color: var(--link);
         border: none; 
         fill: var(--button);
