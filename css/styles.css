@@ -536,10 +536,6 @@ border-radius: 2px;
       gap: 24px;
     }
 
-    .footerform-label {
-      
-    }
-
     .footer-input {
       width: 264px; 
       height: 40px; 
@@ -565,7 +561,7 @@ border-radius: 2px;
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: "Roboto";
+      font-family: "Roboto", sans-serif;
       font-size: 16px;
       font-weight: 500;
       line-height: 1.5 ;
@@ -882,7 +878,7 @@ border-radius: 2px;
         fill: transparent;
        }
        
-       .checkbox-modal .checkbox-span:checked {
+        .checkbox-span:checked .checkbox-modal {
         background-color: var(--link);
         border: none; 
         fill: var(--button);
