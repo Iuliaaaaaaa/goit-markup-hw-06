@@ -878,7 +878,7 @@ border-radius: 2px;
         fill: transparent;
        }
        
-        .checkbox-span:checked  {
+       input[type="checkbox"]:checked .checkbox-span {
         background-color: var(--link);
         border: none; 
         fill: var(--button);
