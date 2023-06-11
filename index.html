@@ -142,9 +142,20 @@
         <li class="foot-item"><a href="" class="foot-link"><svg class="foot-icon" width="24" height="24"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
     </ul>
    </div>
+   
+   <div class="footerform-container">
+    <p class="footerform-text"> Subscribe</p>
+    <form class="footerform">
+        <label class="footerform-label">
+            <input name="user-email-footer" type="email" class="footer-input" placeholder="E-mail" >
+        </label>
+        <button type="submit" class="footer-btn">Subscribe<svg width="24" height="24" class="footerform-icon"><use href="./images/icons.svg#icon-Frame-3-3"></use></svg></button>
+    </form>
+   </div>
    </div>
     </footer>
-    <div class="backdrop" data-modal>
+   
+    <div class="backdrop" data-modal hidden>
         <div class="modal" >
          <button type="button" class="modal-close-btn" data-modal-close><svg class="modal-icon-close" width="8" height="8"><use href="./images/icons.svg#icon-close-modal"></use></svg> </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
@@ -186,8 +197,7 @@
              </div>
 
              <button type="submit" class="modal-btn">Send</button>
-        </form>
-        
+        </form> 
         </div>
     </div>
         <script src="./js/modal.js"></script>
