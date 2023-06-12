@@ -877,13 +877,13 @@ border-radius: 2px;
         align-items: center;
         fill: transparent;
        }
-       
-      .checkbox-modal:checked + .checkbox-text span {
-        border: none; 
+
+       .checkbox-modal:checked + .checkbox-text span {
         background-color: var(--link);
+        border: none; 
         fill: var(--button);
        }
-
+       
        .checkbox-link {
         color: var(--text-color);
        }
