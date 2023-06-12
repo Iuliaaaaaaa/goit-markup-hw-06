@@ -866,7 +866,7 @@ border-radius: 2px;
         color: var(--link-color);
        }
 
-       .checkbox-span {
+       .checkbox-text {
         width: 16px;
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.4); 
@@ -878,9 +878,9 @@ border-radius: 2px;
         fill: transparent;
        }
        
-      .checkbox-modal:checked + .checkbox-span span {
-        background-color: var(--link);
+      .checkbox-modal:checked + .checkbox-text span {
         border: none; 
+        background-color: var(--link);
         fill: var(--button);
        }
 
