@@ -830,6 +830,9 @@ border-radius: 2px;
         border: 1px solid rgba(46, 47, 66, 0.4);
       }
 
+       .modal-comment::placeholder {
+        color: rgba(46, 47, 66, 0.4);
+       }
        .modal-comment:focus {
         border-color: var(--text-color);
        }
@@ -864,6 +867,7 @@ border-radius: 2px;
         line-height: 1.17;
         letter-spacing: 0.04em; 
         color: var(--link-color);
+      
        }
 
        .checkbox-text {
@@ -876,6 +880,7 @@ border-radius: 2px;
         justify-content: center;
         align-items: center;
         fill: transparent;
+        margin-right: 8px;
        }
 
        .checkbox-modal:checked + .checkbox-label span {
